@@ -2133,3 +2133,321 @@ ul, ol {
         padding: 20px;
     }
 }
+
+
+/* ========================================
+   SIGMOID-INSPIRED SERVICES PAGE
+   ======================================== */
+
+.services-hero {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    color: white;
+    padding: 120px 20px 80px;
+    text-align: center;
+}
+
+.services-hero h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.services-hero .hero-subtitle {
+    font-size: 1.4rem;
+    opacity: 0.95;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section-header-center {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-header-center h2 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #1a202c;
+}
+
+.section-intro {
+    font-size: 1.2rem;
+    color: #4a5568;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Services Grid */
+.services-grid-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.service-card-large {
+    background: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 40px;
+    transition: all 0.3s ease;
+}
+
+.service-card-large:hover {
+    border-color: #3b82f6;
+    box-shadow: 0 20px 40px rgba(59, 130, 246, 0.15);
+    transform: translateY(-8px);
+}
+
+.service-icon {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.service-card-large h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 15px;
+}
+
+.service-card-large > p {
+    font-size: 1.1rem;
+    color: #4a5568;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.service-features {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+}
+
+.service-features li {
+    padding: 12px 0;
+    color: #2d3748;
+    font-size: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+    position: relative;
+    padding-left: 30px;
+}
+
+.service-features li:before {
+    content: "?";
+    position: absolute;
+    left: 0;
+    color: #3b82f6;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.service-features li:last-child {
+    border-bottom: none;
+}
+
+/* Differentiators Grid */
+.differentiators-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.differentiator-card {
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    text-align: center;
+    border: 2px solid #f3f4f6;
+    transition: all 0.3s ease;
+}
+
+.differentiator-card:hover {
+    border-color: #3b82f6;
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.1);
+}
+
+.diff-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.differentiator-card h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 15px;
+}
+
+.differentiator-card p {
+    font-size: 0.95rem;
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+/* Industries Grid */
+.industries-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.industry-card {
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    border-left: 4px solid #3b82f6;
+    transition: all 0.3s ease;
+}
+
+.industry-card:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transform: translateX(5px);
+}
+
+.industry-card h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 15px;
+}
+
+.industry-card p {
+    font-size: 1rem;
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+/* Stats Section */
+.stats-section {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    color: white;
+    padding: 80px 20px;
+}
+
+.stats-grid-large {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    text-align: center;
+}
+
+.stat-item-large {
+    padding: 20px;
+}
+
+.stat-number {
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.stat-label {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+}
+
+/* CTA Section */
+.cta-section {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.cta-section p {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+    opacity: 0.95;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-cta {
+    display: inline-block;
+    padding: 18px 50px;
+    background: white;
+    color: #059669;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-cta:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.bg-light {
+    background: #f9fafb;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .services-grid-main {
+        grid-template-columns: 1fr;
+    }
+    
+    .differentiators-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .industries-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .stats-grid-large {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .services-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .services-hero .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .section-header-center h2 {
+        font-size: 2rem;
+    }
+    
+    .differentiators-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .industries-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .stats-grid-large {
+        grid-template-columns: 1fr;
+    }
+    
+    .stat-number {
+        font-size: 3rem;
+    }
+    
+    .cta-section h2 {
+        font-size: 2rem;
+    }
+}
