@@ -1958,3 +1958,178 @@ ul, ol {
     max-width: 100%;
     padding: 0;
 }
+
+
+/* ========================================
+   RESOURCES PAGE STYLES
+   ======================================== */
+
+.hero-minimal {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero-minimal h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.3rem;
+    opacity: 0.9;
+}
+
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 50px 0;
+}
+
+.resource-card {
+    background: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.resource-card:hover {
+    border-color: #667eea;
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.1);
+    transform: translateY(-5px);
+}
+
+.resource-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.resource-card h3 {
+    color: #1a202c;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.resource-card p {
+    color: #4a5568;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.resource-note {
+    font-size: 0.9rem;
+    color: #718096;
+    font-style: italic;
+    background: #f7fafc;
+    padding: 10px;
+    border-radius: 6px;
+    border-left: 3px solid #667eea;
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 12px 30px;
+    background: white;
+    color: #667eea;
+    border: 2px solid #667eea;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: #667eea;
+    color: white;
+}
+
+.instructions-box {
+    background: #f8f9fa;
+    border: 2px solid #dee2e6;
+    border-radius: 12px;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.instructions-box h3 {
+    color: #1a202c;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+.instruction-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.step {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+.step strong {
+    display: block;
+    color: #667eea;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.step ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.step li {
+    margin: 8px 0;
+    color: #4a5568;
+}
+
+.step code {
+    background: #f1f5f9;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    color: #e91e63;
+}
+
+.step pre {
+    background: #1a202c;
+    color: #f7fafc;
+    padding: 15px;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+
+.step pre code {
+    background: none;
+    color: #f7fafc;
+    padding: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-minimal h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .resources-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .instructions-box {
+        padding: 20px;
+    }
+}
