@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Strategy Call | AKcelerate</title>
+    <meta name="description" content="Ready to scale? Book a confidential strategy consultation. Executive-level growth planning.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="/" class="logo">AKcelerate</a>
+            <div class="nav-links desktop-nav">
+                <a href="/">Home</a>
+                <a href="/case-studies">Case Studies</a>
+                <a href="/founder">Founder</a>
+                <a href="/contact" class="btn-primary-nav active">Book Strategy Call</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <a href="/">Home</a>
+            <a href="/case-studies">Case Studies</a>
+            <a href="/founder">Founder</a>
+            <a href="/contact">Book Strategy Call</a>
+        </div>
+    </nav>
+
+    <!-- Page Header - Executive Style -->
+    <section class="page-header-premium">
+        <div class="container">
+            <h1 class="page-title-premium">Book a Strategy Call</h1>
+            <p class="page-subtitle-premium">Let's discuss your next phase of growth.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section - Executive Minimal -->
+    <section class="contact-section-premium">
+        <div class="container-narrow">
+            <div class="contact-grid-premium">
+                <!-- Contact Form - Minimal -->
+                <div class="contact-form-premium">
+                    <form id="contactForm" class="form-premium">
+                        <div class="form-group-premium">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your full name">
+                        </div>
+                        
+                        <div class="form-group-premium">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="your@email.com">
+                        </div>
+                        
+                        <div class="form-group-premium">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company" required placeholder="Company name">
+                        </div>
+                        
+                        <div class="form-group-premium">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell me about your business and what you're looking to achieve..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary-large btn-full-width">Send Message</button>
+                    </form>
+                    
+                    <div id="formSuccess" class="form-success-premium" style="display: none;">
+                        <div class="success-icon">✓</div>
+                        <h3>Message Sent</h3>
+                        <p>I'll review your inquiry and respond within 24 hours.</p>
+                    </div>
+                    
+                    <div id="formError" class="form-error-premium" style="display: none;">
+                        <h3>Something Went Wrong</h3>
+                        <p>Please try again or email me directly.</p>
+                    </div>
+                </div>
+                
+                <!-- Direct Contact Options -->
+                <div class="contact-direct-premium">
+                    <div class="contact-method">
+                        <div class="method-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="method-content">
+                            <div class="method-label">Email</div>
+                            <a href="mailto:hello@akcelerate.com" class="method-value">hello@akcelerate.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="method-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="method-content">
+                            <div class="method-label">WhatsApp</div>
+                            <a href="https://wa.me/15551234567" target="_blank" class="method-value">+1 (555) 123-4567</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="method-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </div>
+                        <div class="method-content">
+                            <div class="method-label">LinkedIn</div>
+                            <a href="https://linkedin.com/company/akcelerate" target="_blank" class="method-value">Connect on LinkedIn</a>
+                        </div>
+                    </div>
+                    
+                    <div class="response-note">
+                        <p>Response within 24 hours. All consultations are confidential.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer - Premium Clean -->
+    <footer class="footer-premium">
+        <div class="container">
+            <div class="footer-content-premium">
+                <div class="footer-brand-premium">
+                    <h3 class="footer-logo-premium">AKcelerate</h3>
+                    <p class="footer-tagline-premium">Architecting Scalable Growth</p>
+                </div>
+                <div class="footer-links-premium">
+                    <div class="footer-column-premium">
+                        <a href="/case-studies">Case Studies</a>
+                        <a href="/founder">Founder</a>
+                        <a href="/contact">Contact</a>
+                    </div>
+                    <div class="footer-column-premium">
+                        <a href="https://linkedin.com/company/akcelerate" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="mailto:hello@akcelerate.com">hello@akcelerate.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-premium">
+                <p>&copy; 2026 AKcelerate. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
